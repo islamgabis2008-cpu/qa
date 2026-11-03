@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="dzGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#1e3a8a" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="128" fill="url(#dzGrad)" />
+  
+  <!-- Food Cloche Dome / Delivery Bag Emblem -->
+  <g filter="url(#shadow)">
+    <!-- Plate base -->
+    <path d="M112 360 C112 344, 400 344, 400 360 C400 376, 112 376, 112 360 Z" fill="#ffffff" opacity="0.95" />
+    <rect x="96" y="362" width="320" height="14" rx="7" fill="#ffffff" />
+    
+    <!-- Food Cloche Cover -->
+    <path d="M128 340 C128 210, 384 210, 384 340 Z" fill="#ffffff" />
+    
+    <!-- Cloche Handle / Knob -->
+    <circle cx="256" cy="180" r="26" fill="url(#accentGrad)" />
+    <path d="M250 180 L262 180" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+    
+    <!-- Speed Lines (Delivery) -->
+    <path d="M80 260 L120 260" stroke="#F59E0B" stroke-width="12" stroke-linecap="round" />
+    <path d="M60 295 L110 295" stroke="#F59E0B" stroke-width="12" stroke-linecap="round" />
+    <path d="M90 225 L125 225" stroke="#F59E0B" stroke-width="10" stroke-linecap="round" />
+    
+    <!-- DZ Text Badge in Arabic & Latin -->
+    <rect x="176" y="270" width="160" height="48" rx="24" fill="#2563EB" />
+    <text x="256" y="302" font-family="Arial, sans-serif" font-weight="900" font-size="28" fill="#ffffff" text-anchor="middle">DZ ORDER</text>
+  </g>
+</svg>

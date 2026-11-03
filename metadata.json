@@ -1,0 +1,8 @@
+{
+  "name": "Remix DZ Order - Food Ordering \u0026 Delivery Algeria",
+  "description": "Plateforme complète de commande et livraison de repas en Algérie avec support bilingue (Arabe \u0026 Français), paiement à la livraison (Cash on Delivery), gestion des restaurants, coursiers et commandes en temps réel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
